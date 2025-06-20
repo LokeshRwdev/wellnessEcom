@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FiChevronDown, FiChevronUp } from 'react-icons/fi'
@@ -8,7 +8,15 @@ import { useCart } from '@/lib/context/cartContext'
 
 export default function OrderSummary() {
   const [isExpanded, setIsExpanded] = useState(false)
+  const [isDesktop, setIsDesktop] = useState(false)
   const { items, subtotal } = useCart()
+  
+  useEffect(() => {
+    const checkDesktop = () => setIsDesktop(window.innerWidth >= 768)
+    checkDesktop()
+    window.addEventListener('resize', checkDesktop)
+    return () => window.removeEventListener('resize', checkDesktop)
+  }, [])
   
   const shipping = subtotal > 75 ? 0 : 5.99
   const tax = subtotal * 0.08 // 8% tax rate
@@ -31,7 +39,7 @@ export default function OrderSummary() {
       </div>
       
       <AnimatePresence>
-        {(isExpanded || window.innerWidth >= 768) && (
+        {(isExpanded || isDesktop) && (
           <motion.div
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
