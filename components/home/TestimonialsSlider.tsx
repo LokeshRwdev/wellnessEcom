@@ -12,21 +12,21 @@ export default function TestimonialsSlider() {
       name: 'Sophia Martinez',
       avatar: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=1',
       role: 'Yoga Instructor',
-      content: 'The quality of the yoga mats from Serenity is exceptional. My students have noticed the difference, and I\'ve seen a marked improvement in their practice. The eco-friendly materials align perfectly with my values.',
+      content: 'The quality of the yoga mats from SabrShukr is exceptional. My students have noticed the difference, and I\'ve seen a marked improvement in their practice. The eco-friendly materials align perfectly with my values.',
     },
     {
       id: 2,
       name: 'James Wilson',
       avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=1',
       role: 'Wellness Coach',
-      content: 'I\'ve incorporated Serenity\'s ayurvedic products into my daily routine, and I\'ve experienced noticeable improvements in my overall wellbeing. Their commitment to authentic, high-quality ingredients is evident in every product.',
+      content: 'I\'ve incorporated SabrShukr\'s ayurvedic products into my daily routine, and I\'ve experienced noticeable improvements in my overall wellbeing. Their commitment to authentic, high-quality ingredients is evident in every product.',
     },
     {
       id: 3,
       name: 'Emma Chen',
       avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=1',
       role: 'Regular Customer',
-      content: 'The yoga clothing from Serenity is both comfortable and stylish. I wear their pieces from studio to street, and always receive compliments. Plus, their customer service is absolutely top-notch!',
+      content: 'The yoga clothing from SabrShukr is both comfortable and stylish. I wear their pieces from studio to street, and always receive compliments. Plus, their customer service is absolutely top-notch!',
     },
   ]
   

@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Serenity - Yoga & Ayurveda',
+  title: 'SabrShukr - Yoga & Ayurveda',
   description: 'Premium yoga merchandise and ayurvedic products for your wellness journey',
 }
 

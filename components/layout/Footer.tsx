@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-xl font-serif mb-4">Serenity</h3>
+            <h3 className="text-xl font-serif mb-4">SabrShukr</h3>
             <p className="text-sage-100 mb-6">Nurturing wellness through premium yoga merchandise and authentic ayurvedic products.</p>
             <div className="flex space-x-4">
               <SocialLink href="https://instagram.com" icon={<FiInstagram size={20} />} />
@@ -66,7 +66,7 @@ export default function Footer() {
         <div className="border-t border-sage-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sage-200 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} Serenity Yoga & Ayurveda. All rights reserved.
+              &copy; {currentYear} SabrShukr Yoga & Ayurveda. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-sage-200">
               <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

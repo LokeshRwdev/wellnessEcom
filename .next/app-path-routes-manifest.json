@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/account/orders/page": "/account/orders",
+  "/cart/page": "/cart",
+  "/account/page": "/account",
+  "/account/settings/page": "/account/settings",
+  "/checkout/page": "/checkout",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/products/[id]/page": "/products/[id]",
+  "/wishlist/page": "/wishlist",
+  "/products/page": "/products",
+  "/watch/page": "/watch",
+  "/search/page": "/search"
+}
