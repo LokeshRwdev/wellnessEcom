@@ -151,7 +151,7 @@ export default function VideoPlayerMobile({ initialVideoId }: VideoPlayerMobileP
           </div>
 
           {/* Right Side Actions */}
-          <div className="absolute right-4 bottom-20 flex flex-col items-center gap-6 z-10">
+          <div className="absolute right-4 bottom-40 flex flex-col items-center gap-6 z-10">
             <button className="w-12 h-12 rounded-full bg-black/30 backdrop-blur-sm flex items-center justify-center text-white">
               <FiHeart size={24} />
             </button>
@@ -170,7 +170,7 @@ export default function VideoPlayerMobile({ initialVideoId }: VideoPlayerMobileP
           </div>
 
           {/* Bottom Content */}
-          <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent z-10">
+          <div className="absolute bottom-12 left-0 right-0 p-4 bg-gradient-to-t from-black/70 to-transparent z-10">
             <div className="mb-4">
               <h1 className="text-white text-lg font-semibold mb-2">{currentVideo.title}</h1>
               
