@@ -20,7 +20,7 @@ export default function ShopByCategory() {
     },
     {
       id: 'ayurvedic-supplements',
-      name: 'Ayurvedic Supplements',
+      name: 'Supplements',
       image: 'https://images.pexels.com/photos/6694546/pexels-photo-6694546.jpeg',
       href: '/categories/ayurvedic-supplements'
     },

@@ -17,7 +17,7 @@ export default function ProductFilters() {
           <FilterCheckbox label="Meditation Cushions" />
           <FilterCheckbox label="Yoga Clothing" />
           <FilterCheckbox label="Ayurvedic Oils" />
-          <FilterCheckbox label="Ayurvedic Supplements" />
+          <FilterCheckbox label="Supplements" />
           <FilterCheckbox label="Essential Oils" />
         </div>
       </FilterSection>
