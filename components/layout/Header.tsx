@@ -64,9 +64,10 @@ export default function Header() {
             <NavLink href="/products" label="Shop All" />
             <NavLink href="/categories/yoga" label="Yoga" />
             <NavLink href="/categories/ayurveda" label="Ayurveda" />
+            <NavLink href="/sadhana" label="Sadhana" />
             <NavLink href="/about" label="About" />
             <NavLink href="/contact" label="Contact" />
-            <NavLink href="/search" label="Search" />
+            {/* <NavLink href="/search" label="Search" /> */}
           </nav>
 
           <div className="flex items-center space-x-4">
@@ -122,6 +123,7 @@ export default function Header() {
               <MobileNavLink href="/products" label="Shop All" />
               <MobileNavLink href="/categories/yoga" label="Yoga" />
               <MobileNavLink href="/categories/ayurveda" label="Ayurveda" />
+              <MobileNavLink href="/sadhana" label="Sadhana" />
               <MobileNavLink href="/about" label="About" />
               <MobileNavLink href="/contact" label="Contact" />
             </nav>
